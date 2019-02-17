@@ -135,6 +135,5 @@ end
 #play
 def play
   board = ["","","","","","","","",""]
-  
-  
+  input = gets.chomp
 end
