@@ -133,6 +133,8 @@ def winner(board)
 end
 
 #play
-def play(board)
-  move = gets.chomp
+def play
+  board = ["","","","","","","","",""]
+  
+  
 end
