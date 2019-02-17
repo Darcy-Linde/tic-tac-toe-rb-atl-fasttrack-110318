@@ -134,5 +134,5 @@ end
 
 #play
 def play(board)
-  
+  puts "input move"
 end
