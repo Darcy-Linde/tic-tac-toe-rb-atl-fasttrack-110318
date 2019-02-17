@@ -133,3 +133,6 @@ def winner(board)
 end
 
 #play
+def play(board)
+  
+end
