@@ -10,10 +10,13 @@ WIN_COMBINATIONS = [
   [6,4,2]  # Diagonal bottom-top
   ]
   
-  #display_board
+#display_board
   
-  #input_to_index
+#input_to_index
   
-  #move
+#move
   
-  #
+#position_taken?
+def position_taken?(board, index)
+  !(board[index].nil? || board[index] == " ")
+end
