@@ -138,6 +138,6 @@ def play(board)
     turn(board)
   end
   if draw?(board)
-      return "Cats's Game!"
+    return "Cats's Game!"
   end
 end
