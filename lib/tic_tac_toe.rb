@@ -20,3 +20,13 @@ WIN_COMBINATIONS = [
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
+
+#valid_move?
+
+#turn
+
+#turn_count
+
+#current_player
+
+#won?
