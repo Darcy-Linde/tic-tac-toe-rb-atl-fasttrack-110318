@@ -9,3 +9,11 @@ WIN_COMBINATIONS = [
   [0,4,8], # Diagonal top-bottom
   [6,4,2]  # Diagonal bottom-top
   ]
+  
+  #display_board
+  
+  #input_to_index
+  
+  #move
+  
+  #
