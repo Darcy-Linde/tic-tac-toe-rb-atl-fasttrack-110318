@@ -36,7 +36,13 @@ def position_taken?(board, index)
 end
 
 #valid_move?
-
+def valid_move?(board, index)
+  if index >= 0 && index < 9 && !position_taken?(board,index)
+    return true
+  else
+    return false
+  end
+end
 #turn
 
 #turn_count
