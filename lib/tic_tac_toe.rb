@@ -133,7 +133,8 @@ def winner(board)
 end
 
 #play
-def play
-  board = ["","","","","","","","",""]
-  input = gets.chomp
+def play(board)
+  while !over?(board)
+    turn(board)
+  end
 end
