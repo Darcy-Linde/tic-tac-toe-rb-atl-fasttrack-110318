@@ -51,6 +51,10 @@ def turn_count(board)
 end
 
 #current_player
+def current_player(board)
+  count = turn_count(board)
+  count % 2 == 0 ? "X" : "O"
+end
 
 #won?
 def won?(board)
