@@ -18,6 +18,9 @@ def input_to_index(input)
 end
 
 #move
+def move(board, index, character = "X")
+  return board[index] = character
+end
   
 #position_taken?
 def position_taken?(board, index)
