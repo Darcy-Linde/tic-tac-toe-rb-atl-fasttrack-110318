@@ -49,3 +49,13 @@ def won?(board)
 end
 
 #full?
+def full?(board)
+  count = 0
+  while count < 9
+    if position_taken?(board,count) == false
+      return false
+    end
+    count += 1
+  end
+return true  
+end
