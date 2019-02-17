@@ -136,8 +136,8 @@ end
 def play(board)
   while !over?(board)
     turn(board)
-    if draw?(board)
+  end
+  if draw?(board)
       return "Cats's Game!"
-    end
   end
 end
