@@ -43,6 +43,7 @@ def valid_move?(board, index)
     return false
   end
 end
+
 #turn
 
 #turn_count
